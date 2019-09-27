@@ -1,114 +1,91 @@
-@media print {
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>FFTEG - HW2</title>
+    <link rel="stylesheet" href="01.css">
+    <style>
 
-    p {
-	font-size: 10pt;
-    }
+      h2 > img {
+	  position: relative;
+	  width: 400px;
+	  height: 300px;
+      }
+      
+    </style>
+  </head>
+  <body>
 
-    #box {
-	border: none;
-    }
+    <div class="navbar">
+      <a class="active" href="index.html">Home</a>
+      <a href="fodder.html">Fodder For The Elder Gods</a>
+      <a href="apollyon.html">Apollyon of Blue Room</a>
+    </div>
 
-}
-
-#intro::first-letter {
-
-    font-size: x-large;
+    <div id="box">
     
-}
-
-#apollyon {
-
-    color: green;
+    <h1>Fodder for the Elder Gods</h1>
     
-}
+    <section>
+      <h2><img src="https://cdn.discordapp.com/attachments/213028208801480715/596229348206313472/unknown.png" alt="Alien saying Howdy"></h2>
+      <p>  Howdy! Fodder for the Elder Gods is a farming game more styled towards the classic Harvest Moon games with a couple of
+	improvements that were added in games such as Stardew Valley. You start as an alien (who yes, only has a mouth and no eyes) who is the
+	prince from an alien planet, but, being the younger prince and having little to no chance at an actual throne, gets tired of his life
+	and sees the news one day on TV. The news says that a new planet has been discovered that's great for farming, but the last people sent there
+	to start a colony mysteriously disappeared and they need new people to move there and start farming. Your player character, seeing chickens
+	and snazzy overalls on the TV, is instantly drawn in. He tells his family about his plan, and they are all very skeptical, but he decides to go anyway.
+      </p>
+      <p> In Fodder for the Elder Gods, you arrive to a planet largely lush with animal and plant life, but holding a dark secret. Elder gods rule
+	the land, and they're not so happy you've moved in. In order to save your new home, you have to convince the Gods you aren't so bad, or
+	else you'll all just become fodder for the elder gods. </p>
+    </section>
+    <section>
+      <h2><img src="farmshot.png" alt="Picture of an alien at a farm"></h2>
+      <h2>Gameplay</h2>
+      <p> In this game, you'll meet a variety of townsfolk and you'll get to run a farm either with traditional crops or newly discovered alien crops
+	and animals. There will be things to collect, objectives and quests to complete, and people to befriend. There will also be special events,
+	either traditional holidays or new, more cryptic holidays to match the cryptic alien planet setting. Here are just some of the characters you
+	will be able to meet: </p>
+      <table style="width: 75%">
+	<tr>
+	  <th></th>
+	  <th>Name</th>
+	  <th>Occupation</th>
+	  <th>Short Description</th>
+	</tr>
+	<tr>
+	  <td> <img src="beaic.png" alt="alien girl"> </td>
+	  <td> Bea </td>
+	  <td> Carpenter </td>
+	  <td> Bea is the town's overly excited and clueless carpenter. Not great at human interactions, but pretty good with her tools. </td>
+	</tr>
+	<tr>
+	  <td> <img src="percivalicon.png" alt="male alien"> </td>
+	  <td> Percival </td>
+	  <td> Innkeeper </td>
+	  <td> Not the most exciting person to be around, but gets his job done. Very serious, but kind at heart. </td>
+	</tr>
+	<tr>
+	  <td> <img src="APIicon.png" alt="Purple alien with one eye"> </td>
+	  <td> API </td>
+	  <td> Cooking Contest Judge / Prince </td>
+	  <td> The main character's sibling that just comes once a year to the planet to check on the main character and also judge the cooking
+	    contest. Got their fame from exploring the universe and vanquishing evil, but now rests comfortably at their home planet with their friend,
+	    Pepperoni. </td>
+	</tr>
+	<tr>
+	  <td> <img src="Pepicon.png" alt="Small cat boy"> </td>
+	  <td> Pepperoni </td>
+	  <td> Cooking Contest Judge / Knight </td>
+	  <td> Explored the universe with API and is a brave knight from a weird little planet far away. He now stays on API and the main character's
+	    home planet with API and occasionally goes out on adventures with API still. </td>
+	</tr>
+      </table>
+      </section>
 
-#ital {
+      <h6> All images from me and my friend, Ali, who does art for our game!</h6>
 
-    font-style: italic;
-    
-}
+      </div>
 
-body {
-    width: 100%;
-    height: 100%;
-    padding: 0;
-    margin: 0 auto;
-    text-align: center;
-    background-color: #f3ccff;
-    
-}
-
-h1 {
-
-    font-size: 250%
-    
-}
-
-h6 {
-    font-weight: normal;
-    font-size: 12px;
-}
-
-td > img {
-    width: 150px;
-    height: auto;
-}
-
-p {
-    font-weight: normal;
-    font-size: 16px;
-    margin: 30px 1px;
-}
-
-section {
-    margin: 64px 120px 64px 120px;
-}
-
-p ~ p {
-    color: #1287A8;
-}
-
-table, th, td {
-    border: 1px solid black;
-    margin-left: auto;
-    margin-right:auto;
-}
-
-#box {
-    background-color: white;
-    text-align: center;
-    display: inline-block;
-    width: 80%;
-    height: 80%;
-    border: 2px solid black;
-    padding: 50px;
-    margin: 20px;
-}
-
-/* All of navbar learned from W3 Schools at
-https://www.w3schools.com/howto/howto_js_topnav.asp */
-.navbar {
-  background-color: black;
-  overflow: hidden;
-}
-
-.navbar a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.navbar a:hover {
-  background-color: white;
-  color: black;
-}
-
-.navbar a:active {
-  background-color: #ffbaef;
-  color: white;
-}
-
-
+  
+</html>
