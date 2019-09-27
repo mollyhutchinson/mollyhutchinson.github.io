@@ -1,0 +1,114 @@
+@media print {
+
+    p {
+	font-size: 10pt;
+    }
+
+    #box {
+	border: none;
+    }
+
+}
+
+#intro::first-letter {
+
+    font-size: x-large;
+    
+}
+
+#apollyon {
+
+    color: green;
+    
+}
+
+#ital {
+
+    font-style: italic;
+    
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #f3ccff;
+    
+}
+
+h1 {
+
+    font-size: 250%
+    
+}
+
+h6 {
+    font-weight: normal;
+    font-size: 12px;
+}
+
+td > img {
+    width: 150px;
+    height: auto;
+}
+
+p {
+    font-weight: normal;
+    font-size: 16px;
+    margin: 30px 1px;
+}
+
+section {
+    margin: 64px 120px 64px 120px;
+}
+
+p ~ p {
+    color: #1287A8;
+}
+
+table, th, td {
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+#box {
+    background-color: white;
+    text-align: center;
+    display: inline-block;
+    width: 80%;
+    height: 80%;
+    border: 2px solid black;
+    padding: 50px;
+    margin: 20px;
+}
+
+/* All of navbar learned from W3 Schools at
+https://www.w3schools.com/howto/howto_js_topnav.asp */
+.navbar {
+  background-color: black;
+  overflow: hidden;
+}
+
+.navbar a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: white;
+  color: black;
+}
+
+.navbar a:active {
+  background-color: #ffbaef;
+  color: white;
+}
+
+
